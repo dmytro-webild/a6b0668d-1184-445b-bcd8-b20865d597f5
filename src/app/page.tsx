@@ -61,9 +61,13 @@ export default function LandingPage() {
       description="Svakodnevna dostava širom Sarajeva sa svježim, pažljivo odabranim proizvodima po najpovoljnijim cijenama."
       buttons={[
         {
-          text: "Kupite sada",          href: "/#products"},
+          text: "Naruči odmah",          href: "/#products"},
         {
-          text: "Pogledajte proizvode",          href: "/#products"},
+          text: "Pogledaj ponudu",          href: "/#products"},
+        {
+          text: "Pogledaj akcije",          href: "/#products"},
+        {
+          text: "Sedmični paketi",          href: "/#family-packs"}
       ]}
       imageSrc="http://img.b2bpic.net/free-photo/vertical-view-fresh-tomatoes-with-stem-mushrooms-broccoli-basket-white-background_140725-143863.jpg"
       imageAlt="Colorful fresh fruits and vegetables in a market basket"
@@ -158,7 +162,8 @@ export default function LandingPage() {
               text: "Naručite sada",              href: "/#contact"}
           ],
           features: [
-            "Obilno voće i povrće (velike porodice)",            "Uključuje gurmanske selekcije",            "Dostupne prilagodljive opcije",            "Prioritetna kućna dostava"]}
+            "Obilno voće i povrće (velike porodice)",            "Uključuje gurmanske selekcije",            "Dostupne prilagodljive opcije",            "Prioritetna kućna dostava"]
+        }
       ]}
       title="Sedmični porodični paketi vrijednosti"
       description="Uštedite više s našim praktičnim porodičnim paketima, punim svježeg voća i povrća. Savršeno za svako domaćinstvo!"
@@ -225,40 +230,16 @@ export default function LandingPage() {
       logoText="Zelenara"
       columns={[
         {
-          title: "Proizvodi",          items: [
-            {
-              label: "Voće",              href: "/#products"},
-            {
-              label: "Povrće",              href: "/#products"},
-            {
-              label: "Organski proizvodi",              href: "/#products"},
-            {
-              label: "Sezonsko",              href: "/#products"},
-            {
-              label: "Posebne ponude",              href: "/#products"}
-          ]},
-        {
-          title: "Kompanija",          items: [
-            {
-              label: "O nama",              href: "/#about"},
-            {
-              label: "Zašto odabrati Zelenaru",              href: "/#about"},
-            {
-              label: "Recenzije kupaca",              href: "/#testimonials"},
-            {
-              label: "Informacije o dostavi",              href: "/#delivery-info"}
-          ]},
-        {
-          title: "Podrška",          items: [
-            {
-              label: "Kontaktirajte nas",              href: "/#contact"},
-            {
-              label: "Česta pitanja",              href: "/#"},
-            {
-              label: "Politika privatnosti",              href: "/#"},
-            {
-              label: "Uslovi korištenja",              href: "/#"}
-          ]}
+          title: "Brzi linkovi",          items: [
+            { label: "Početna", href: "/" },
+            { label: "Sve kategorije", href: "/#products" },
+            { label: "Sedmični paketi", href: "/#family-packs" },
+            { label: "Dostava", href: "/#delivery-info" },
+            { label: "Kontakt", href: "/#contact" },
+            { label: "Uslovi korištenja", href: "/#" },
+            { label: "Politika privatnosti", href: "/#" }
+          ]
+        }
       ]}
       copyrightText="© 2024 Zelenara. Sva prava zadržana."
     />
