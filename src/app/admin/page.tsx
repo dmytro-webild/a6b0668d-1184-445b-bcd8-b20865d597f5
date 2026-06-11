@@ -10,6 +10,47 @@ import Input from '@/components/form/Input';
 import ButtonHoverMagnetic from '@/components/button/ButtonHoverMagnetic/ButtonHoverMagnetic';
 import { Package, Euro, Image, Tag, ShoppingBag, Users, BarChart } from 'lucide-react';
 
+const NAV_ITEMS_BOSNIAN = [
+  { name: "Početna", id: "#hero" },
+  { name: "Proizvodi", id: "#products" },
+  { name: "Paketi", id: "#family-packs" },
+  { name: "O nama", id: "#about" },
+  { name: "Recenzije", id: "#testimonials" },
+  { name: "Dostava", id: "#delivery-info" },
+  { name: "Kontakt", id: "#contact" },
+  { name: "Admin Panel", id: "/admin" },
+  { name: "Korpa", id: "/cart" }
+];
+
+const FOOTER_COLUMNS_BOSNIAN = [
+  {
+    title: "Proizvodi",    items: [
+      { label: "Voće", href: "#products" },
+      { label: "Povrće", href: "#products" },
+      { label: "Organski proizvodi", href: "#products" },
+      { label: "Sezonsko", href: "#products" },
+      { label: "Posebne ponude", href: "#products" },
+      { label: "Vaša korpa", href: "/cart" }
+    ]
+  },
+  {
+    title: "Kompanija",    items: [
+      { label: "O nama", href: "#about" },
+      { label: "Zašto odabrati Zelenaru", href: "#about" },
+      { label: "Recenzije kupaca", href: "#testimonials" },
+      { label: "Informacije o dostavi", href: "#delivery-info" }
+    ]
+  },
+  {
+    title: "Podrška",    items: [
+      { label: "Kontaktirajte nas", href: "#contact" },
+      { label: "Česta pitanja", href: "#" },
+      { label: "Politika privatnosti", href: "/privacy-policy" },
+      { label: "Uslovi korištenja", href: "/terms-of-service" }
+    ]
+  }
+];
+
 export default function AdminPanelPage() {
   return (
     <ThemeProvider
@@ -27,32 +68,7 @@ export default function AdminPanelPage() {
       <ReactLenis root>
         <div id="nav" data-section="nav">
           <NavbarLayoutFloatingOverlay
-            navItems={[
-              {
-                name: "Home", id: "#hero"
-              },
-              {
-                name: "Products", id: "#products"
-              },
-              {
-                name: "Packages", id: "#family-packs"
-              },
-              {
-                name: "About Us", id: "#about"
-              },
-              {
-                name: "Reviews", id: "#testimonials"
-              },
-              {
-                name: "Delivery", id: "#delivery-info"
-              },
-              {
-                name: "Contact", id: "#contact"
-              },
-              {
-                name: "Admin Panel", id: "/admin"
-              }
-            ]}
+            navItems={NAV_ITEMS_BOSNIAN}
             brandName="Zelenara"
             button={{
               text: "Call Us: 060 342 2089"
@@ -174,59 +190,7 @@ export default function AdminPanelPage() {
         <div id="footer" data-section="footer">
           <FooterBaseCard
             logoText="Zelenara"
-            columns={[
-              {
-                title: "Products", items: [
-                  {
-                    label: "Fruits", href: "#products"
-                  },
-                  {
-                    label: "Vegetables", href: "#products"
-                  },
-                  {
-                    label: "Organic Products", href: "#products"
-                  },
-                  {
-                    label: "Seasonal", href: "#products"
-                  },
-                  {
-                    label: "Special Offers", href: "#products"
-                  }
-                ]
-              },
-              {
-                title: "Company", items: [
-                  {
-                    label: "About Us", href: "#about"
-                  },
-                  {
-                    label: "Why Choose Zelenara", href: "#about"
-                  },
-                  {
-                    label: "Customer Reviews", href: "#testimonials"
-                  },
-                  {
-                    label: "Delivery Information", href: "#delivery-info"
-                  }
-                ]
-              },
-              {
-                title: "Support", items: [
-                  {
-                    label: "Contact Us", href: "#contact"
-                  },
-                  {
-                    label: "FAQ", href: "#"
-                  },
-                  {
-                    label: "Privacy Policy", href: "#"
-                  },
-                  {
-                    label: "Terms of Service", href: "#"
-                  }
-                ]
-              }
-            ]}
+            columns={FOOTER_COLUMNS_BOSNIAN}
             copyrightText="© 2024 Zelenara. All rights reserved."
           />
         </div>
