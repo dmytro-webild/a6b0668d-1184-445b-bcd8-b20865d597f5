@@ -33,19 +33,21 @@ export default function LandingPage() {
       <NavbarLayoutFloatingOverlay
       navItems={[
         {
-          name: "Početna",          id: "#hero"},
+          name: "Početna",          id: "/"},
         {
-          name: "Proizvodi",          id: "#products"},
+          name: "Proizvodi",          id: "/#products"},
         {
-          name: "Paketi",          id: "#family-packs"},
+          name: "Paketi",          id: "/#family-packs"},
         {
-          name: "O nama",          id: "#about"},
+          name: "O nama",          id: "/#about"},
         {
-          name: "Recenzije",          id: "#testimonials"},
+          name: "Recenzije",          id: "/#testimonials"},
         {
-          name: "Dostava",          id: "#delivery-info"},
+          name: "Dostava",          id: "/#delivery-info"},
         {
-          name: "Kontakt",          id: "#contact"},
+          name: "Kontakt",          id: "/#contact"},
+        {
+          name: "Administracija",          id: "/admin"}
       ]}
       brandName="Zelenara"
       button={{
@@ -59,9 +61,9 @@ export default function LandingPage() {
       description="Svakodnevna dostava širom Sarajeva sa svježim, pažljivo odabranim proizvodima po najpovoljnijim cijenama."
       buttons={[
         {
-          text: "Kupite sada",          href: "#products"},
+          text: "Kupite sada",          href: "/#products"},
         {
-          text: "Pogledajte proizvode",          href: "#products"},
+          text: "Pogledajte proizvode",          href: "/#products"},
       ]}
       imageSrc="http://img.b2bpic.net/free-photo/vertical-view-fresh-tomatoes-with-stem-mushrooms-broccoli-basket-white-background_140725-143863.jpg"
       imageAlt="Colorful fresh fruits and vegetables in a market basket"
@@ -95,7 +97,7 @@ export default function LandingPage() {
         {
           title: "Pouzdano i brzo",          description: "Naš posvećeni tim pruža brzu i pouzdanu uslugu dostave širom Sarajeva i okolnih područja.",          imageSrc: "http://img.b2bpic.net/free-photo/courier-doing-jobs-logistics_23-2149229205.jpg",          imageAlt: "fast delivery truck city background"},
         {
-          title: "Pratite svoju narudžbu",          description: "Budite u toku s praćenjem u realnom vremenu od našeg skladišta do vaših vrata.",          imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-man-carrying-box_23-2148773399.jpg",          imageAlt: "fast delivery truck city background"},
+          title: "Pratite svoju narudžbu",          description: "Budite u toku s praćenjem u realnom vremenu od našeg skladišta do vaših vrata.",          imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-man-carrying-box_23-2148773399.jpg",          imageAlt: "fast delivery truck city background"}
       ]}
       title="Brza dostava širom Sarajeva"
       description="Iskusite našu pouzdanu i brzu uslugu dostave, osiguravajući da vaše svježe namirnice stignu brzo i savršeno. Uživajte u dostavi isti dan za rane narudžbe!"
@@ -120,7 +122,7 @@ export default function LandingPage() {
         {
           id: "prod-5",          name: "Zrele banane",          price: "2.79 BAM/kg",          variant: "Tropsko voće",          imageSrc: "http://img.b2bpic.net/free-photo/set-fresh-bananas_23-2147931477.jpg",          imageAlt: "ripe yellow bananas bunch tropical"},
         {
-          id: "prod-6",          name: "Hrskavi krastavci",          price: "2.49 BAM/piece",          variant: "Povrće za salatu",          imageSrc: "http://img.b2bpic.net/free-photo/fresh-cucumber-gathered-from-greenhouse-plants_114579-2734.jpg",          imageAlt: "fresh green cucumbers garden"},
+          id: "prod-6",          name: "Hrskavi krastavci",          price: "2.49 BAM/piece",          variant: "Povrće za salatu",          imageSrc: "http://img.b2bpic.net/free-photo/fresh-cucumber-gathered-from-greenhouse-plants_114579-2734.jpg",          imageAlt: "fresh green cucumbers garden"}
       ]}
       title="Naši svježi proizvodi"
       description="Istražite našu široku ponudu kategorija, od svakodnevnih potrepština do organskih specijaliteta. Pronađite svoje favorite uz jednostavne opcije pretraživanja, filtriranja i sortiranja."
@@ -137,29 +139,26 @@ export default function LandingPage() {
           id: "pack-small",          badge: "Popularno",          badgeIcon: Sparkles,
           price: "29.99 BAM",          subtitle: "Mali porodični paket",          buttons: [
             {
-              text: "Naručite sada",              href: "#contact"},
+              text: "Naručite sada",              href: "/#contact"}
           ],
           features: [
-            "Svježe voće i povrće (2-3 osobe)",            "Sezonski izbor",            "Sadržaj koji se mijenja sedmično",            "Praktična kućna dostava"],
-        },
+            "Svježe voće i povrće (2-3 osobe)",            "Sezonski izbor",            "Sadržaj koji se mijenja sedmično",            "Praktična kućna dostava"]},
         {
           id: "pack-medium",          badge: "Najbolja vrijednost",          badgeIcon: Award,
           price: "49.99 BAM",          subtitle: "Srednji porodični paket",          buttons: [
             {
-              text: "Naručite sada",              href: "#contact"},
+              text: "Naručite sada",              href: "/#contact"}
           ],
           features: [
-            "Obilno voće i povrće (4-5 osoba)",            "Premium organske opcije",            "Sadržaj koji se mijenja sedmično",            "Ekspresna kućna dostava"],
-        },
+            "Obilno voće i povrće (4-5 osoba)",            "Premium organske opcije",            "Sadržaj koji se mijenja sedmično",            "Ekspresna kućna dostava"]},
         {
           id: "pack-large",          badge: "Za velike porodice",          badgeIcon: Users,
           price: "69.99 BAM",          subtitle: "Veliki porodični paket",          buttons: [
             {
-              text: "Naručite sada",              href: "#contact"},
+              text: "Naručite sada",              href: "/#contact"}
           ],
           features: [
-            "Obilno voće i povrće (velike porodice)",            "Uključuje gurmanske selekcije",            "Dostupne prilagodljive opcije",            "Prioritetna kućna dostava"],
-        },
+            "Obilno voće i povrće (velike porodice)",            "Uključuje gurmanske selekcije",            "Dostupne prilagodljive opcije",            "Prioritetna kućna dostava"]}
       ]}
       title="Sedmični porodični paketi vrijednosti"
       description="Uštedite više s našim praktičnim porodičnim paketima, punim svježeg voća i povrća. Savršeno za svako domaćinstvo!"
@@ -185,7 +184,7 @@ export default function LandingPage() {
           imageSrc: "http://img.b2bpic.net/free-photo/portrait-young-man-holding-red-turnip-orange-carrot_23-2148076091.jpg",          imageAlt: "man unpacking grocery bag kitchen"},
         {
           id: "t5",          name: "Sara D.",          handle: "@sara_garden",          testimonial: "Njihov organski izbor je vrhunski. Utješno je znati da dobijam visokokvalitetne proizvode bez hemikalija za svoju porodicu.",          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/senior-woman-eating-banana-outdoors-park-after-yoga_23-2148685724.jpg",          imageAlt: "elderly woman happy smiling outdoor"},
+          imageSrc: "http://img.b2bpic.net/free-photo/senior-woman-eating-banana-outdoors-park-after-yoga_23-2148685724.jpg",          imageAlt: "elderly woman happy smiling outdoor"}
       ]}
       showRating={true}
       animationType="slide-up"
@@ -216,7 +215,7 @@ export default function LandingPage() {
       text="Imate pitanja ili trebate pomoć? Kontaktirajte nas direktno ili ispunite našu kontakt formu. Telefon: 📞 060 342 2089"
       buttons={[
         {
-          text: "Pošaljite poruku",          href: "#"},
+          text: "Pošaljite poruku",          href: "/#"}
       ]}
     />
   </div>
@@ -228,41 +227,38 @@ export default function LandingPage() {
         {
           title: "Proizvodi",          items: [
             {
-              label: "Voće",              href: "#products"},
+              label: "Voće",              href: "/#products"},
             {
-              label: "Povrće",              href: "#products"},
+              label: "Povrće",              href: "/#products"},
             {
-              label: "Organski proizvodi",              href: "#products"},
+              label: "Organski proizvodi",              href: "/#products"},
             {
-              label: "Sezonsko",              href: "#products"},
+              label: "Sezonsko",              href: "/#products"},
             {
-              label: "Posebne ponude",              href: "#products"},
-          ],
-        },
+              label: "Posebne ponude",              href: "/#products"}
+          ]},
         {
           title: "Kompanija",          items: [
             {
-              label: "O nama",              href: "#about"},
+              label: "O nama",              href: "/#about"},
             {
-              label: "Zašto odabrati Zelenaru",              href: "#about"},
+              label: "Zašto odabrati Zelenaru",              href: "/#about"},
             {
-              label: "Recenzije kupaca",              href: "#testimonials"},
+              label: "Recenzije kupaca",              href: "/#testimonials"},
             {
-              label: "Informacije o dostavi",              href: "#delivery-info"},
-          ],
-        },
+              label: "Informacije o dostavi",              href: "/#delivery-info"}
+          ]},
         {
           title: "Podrška",          items: [
             {
-              label: "Kontaktirajte nas",              href: "#contact"},
+              label: "Kontaktirajte nas",              href: "/#contact"},
             {
-              label: "Česta pitanja",              href: "#"},
+              label: "Česta pitanja",              href: "/#"},
             {
-              label: "Politika privatnosti",              href: "#"},
+              label: "Politika privatnosti",              href: "/#"},
             {
-              label: "Uslovi korištenja",              href: "#"},
-          ],
-        },
+              label: "Uslovi korištenja",              href: "/#"}
+          ]}
       ]}
       copyrightText="© 2024 Zelenara. Sva prava zadržana."
     />
