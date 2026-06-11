@@ -63,7 +63,7 @@ export default function AdminPanelPage() {
         <div id="admin-hero" data-section="admin-hero" className="py-24">
           <TextAnimation
             type="entrance-slide"
-            children="Admin Panel"
+            text="Admin Panel"
             className="text-center text-4xl lg:text-5xl font-bold"
           />
           <p className="text-center text-lg mt-4 max-w-2xl mx-auto text-gray-600 dark:text-gray-400">
