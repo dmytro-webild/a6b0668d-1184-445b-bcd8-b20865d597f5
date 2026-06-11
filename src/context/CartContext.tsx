@@ -1,7 +1,7 @@
 'use client';
 
 import React, { createContext, useContext, useState, useEffect, useCallback, useMemo } from 'react';
-import { toast } from 'react-hot-toast'; // Assuming you have react-hot-toast installed
+// import { toast } from 'react-hot-toast'; // Assuming you have react-hot-toast installed
 
 interface CartItem {
   id: string;
@@ -62,7 +62,7 @@ export const CartProvider: React.FC<{ children: React.ReactNode }> = ({ children
         const updatedItems = prevItems.map((item) =>
           item.id === product.id ? { ...item, quantity: item.quantity + quantity } : item
         );
-        toast.success(`Ažurirano: ${existingItem.name} (${existingItem.quantity + quantity})`);
+        console.log(`Ažurirano: ${existingItem.name} (${existingItem.quantity + quantity})`);
         return updatedItems;
       } else {
         const newItem: CartItem = {
@@ -72,7 +72,7 @@ export const CartProvider: React.FC<{ children: React.ReactNode }> = ({ children
           imageSrc: product.imageSrc,
           quantity,
         };
-        toast.success(`Dodato u korpu: ${product.name}`);
+        console.log(`Dodato u korpu: ${product.name}`);
         return [...prevItems, newItem];
       }
     });
@@ -82,7 +82,7 @@ export const CartProvider: React.FC<{ children: React.ReactNode }> = ({ children
     setItems((prevItems) => {
       const removedItem = prevItems.find((item) => item.id === id);
       if (removedItem) {
-        toast.error(`Uklonjeno iz korpe: ${removedItem.name}`);
+        console.error(`Uklonjeno iz korpe: ${removedItem.name}`);
       }
       return prevItems.filter((item) => item.id !== id);
     });
@@ -100,7 +100,7 @@ export const CartProvider: React.FC<{ children: React.ReactNode }> = ({ children
 
   const clearCart = useCallback(() => {
     setItems([]);
-    toast.success('Korpa je ispražnjena.');
+    console.log('Korpa je ispražnjena.');
   }, []);
 
   const totalItems = useMemo(() => items.reduce((sum, item) => sum + item.quantity, 0), [items]);

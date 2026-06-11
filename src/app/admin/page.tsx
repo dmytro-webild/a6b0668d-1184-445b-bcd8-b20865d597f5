@@ -47,15 +47,15 @@ export default function AdminPage() {
               title: "Pregled statusa",              stats: [
                 {
                   title: "Proizvodi",                  values: [150, 160, 170],
-                  description: "Ukupan broj proizvoda",                  logoIcon: ShoppingBag
+                  description: "Ukupan broj proizvoda"
                 },
                 {
                   title: "Narudžbe",                  values: [450, 470, 490],
-                  description: "Sedmične narudžbe",                  logoIcon: CreditCard
+                  description: "Sedmične narudžbe"
                 },
                 {
                   title: "Prihod",                  values: [12000, 12500, 13000],
-                  valueSuffix: " KM",                  description: "Sedmični prihod",                  logoIcon: DollarSign
+                  valueSuffix: " KM",                  description: "Sedmični prihod"
                 }
               ],
               logoIcon: Leaf,
