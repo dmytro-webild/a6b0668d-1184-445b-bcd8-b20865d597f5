@@ -7,7 +7,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
 import FooterBaseCard from '@/components/sections/footer/FooterBaseCard';
-import { Toaster, toast } from 'react-hot-toast';
+// import { Toaster, toast } from 'react-hot-toast';
 
 export default function CheckoutPage() {
   const { items, subtotal, deliveryFee, grandTotal, clearCart } = useCart();
@@ -67,7 +67,7 @@ export default function CheckoutPage() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if (items.length === 0) {
-      toast.error('Vaša korpa je prazna. Dodajte proizvode prije naplate.');
+      console.error('Vaša korpa je prazna. Dodajte proizvode prije naplate.');
       return;
     }
     // Simulate order placement
@@ -88,7 +88,7 @@ export default function CheckoutPage() {
       secondaryButtonStyle="radial-glow"
       headingFontWeight="normal"
     >
-      <Toaster />
+      
       <NavbarLayoutFloatingOverlay
         navItems={navItems}
         brandName="Zelenara"
