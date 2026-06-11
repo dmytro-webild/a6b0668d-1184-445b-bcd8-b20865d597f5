@@ -8,7 +8,6 @@ import Link from 'next/link';
 import { X, Plus, Minus } from 'lucide-react';
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
 import FooterBaseCard from '@/components/sections/footer/FooterBaseCard';
-import { Toaster } from 'react-hot-toast';
 
 export default function CartPage() {
   const { items, updateQuantity, removeItem, subtotal, deliveryFee, grandTotal } = useCart();
@@ -65,7 +64,7 @@ export default function CartPage() {
       secondaryButtonStyle="radial-glow"
       headingFontWeight="normal"
     >
-      <Toaster />
+      
       <NavbarLayoutFloatingOverlay
         navItems={navItems}
         brandName="Zelenara"
