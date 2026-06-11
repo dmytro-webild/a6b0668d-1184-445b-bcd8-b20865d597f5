@@ -33,38 +33,23 @@ export default function LandingPage() {
       <NavbarLayoutFloatingOverlay
       navItems={[
         {
-          name: "Home",
-          id: "#hero",
-        },
+          name: "Home",          id: "#hero"},
         {
-          name: "Products",
-          id: "#products",
-        },
+          name: "Products",          id: "#products"},
         {
-          name: "Packages",
-          id: "#family-packs",
-        },
+          name: "Packages",          id: "#family-packs"},
         {
-          name: "About Us",
-          id: "#about",
-        },
+          name: "About Us",          id: "#about"},
         {
-          name: "Reviews",
-          id: "#testimonials",
-        },
+          name: "Reviews",          id: "#testimonials"},
         {
-          name: "Delivery",
-          id: "#delivery-info",
-        },
+          name: "Delivery",          id: "#delivery-info"},
         {
-          name: "Contact",
-          id: "#contact",
-        },
+          name: "Contact",          id: "#contact"},
       ]}
       brandName="Zelenara"
       button={{
-        text: "Call Us: 060 342 2089",
-      }}
+        text: "Call Us: 060 342 2089"}}
     />
   </div>
 
@@ -74,13 +59,9 @@ export default function LandingPage() {
       description="Daily delivery across Sarajevo with fresh, carefully selected produce at the best prices."
       buttons={[
         {
-          text: "Shop Now",
-          href: "#products",
-        },
+          text: "Shop Now",          href: "#products"},
         {
-          text: "View Products",
-          href: "#products",
-        },
+          text: "View Products",          href: "#products"},
       ]}
       imageSrc="http://img.b2bpic.net/free-photo/vertical-view-fresh-tomatoes-with-stem-mushrooms-broccoli-basket-white-background_140725-143863.jpg"
       imageAlt="Colorful fresh fruits and vegetables in a market basket"
@@ -108,29 +89,13 @@ export default function LandingPage() {
       useInvertedBackground={true}
       features={[
         {
-          title: "Same-Day Freshness",
-          description: "Order before 10 AM for delivery on the same day, ensuring peak freshness for your ingredients.",
-          imageSrc: "http://img.b2bpic.net/free-photo/full-shot-woman-buying-vegetables_23-2149050811.jpg",
-          imageAlt: "fast delivery truck city background",
-        },
+          title: "Same-Day Freshness",          description: "Order before 10 AM for delivery on the same day, ensuring peak freshness for your ingredients.",          imageSrc: "http://img.b2bpic.net/free-photo/full-shot-woman-buying-vegetables_23-2149050811.jpg",          imageAlt: "fast delivery truck city background"},
         {
-          title: "Carefully Prepared",
-          description: "Each order is freshly prepared and packed with care to maintain quality during transit.",
-          imageSrc: "http://img.b2bpic.net/free-photo/minivan-driving-winter-suburban-road-with-traffic-flow-urban-commute-transport_169016-71803.jpg",
-          imageAlt: "fast delivery truck city background",
-        },
+          title: "Carefully Prepared",          description: "Each order is freshly prepared and packed with care to maintain quality during transit.",          imageSrc: "http://img.b2bpic.net/free-photo/minivan-driving-winter-suburban-road-with-traffic-flow-urban-commute-transport_169016-71803.jpg",          imageAlt: "fast delivery truck city background"},
         {
-          title: "Reliable & Fast",
-          description: "Our dedicated team provides fast and dependable delivery service throughout Sarajevo and surrounding areas.",
-          imageSrc: "http://img.b2bpic.net/free-photo/courier-doing-jobs-logistics_23-2149229205.jpg",
-          imageAlt: "fast delivery truck city background",
-        },
+          title: "Reliable & Fast",          description: "Our dedicated team provides fast and dependable delivery service throughout Sarajevo and surrounding areas.",          imageSrc: "http://img.b2bpic.net/free-photo/courier-doing-jobs-logistics_23-2149229205.jpg",          imageAlt: "fast delivery truck city background"},
         {
-          title: "Track Your Order",
-          description: "Stay updated with real-time tracking from our warehouse to your doorstep.",
-          imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-man-carrying-box_23-2148773399.jpg",
-          imageAlt: "fast delivery truck city background",
-        },
+          title: "Track Your Order",          description: "Stay updated with real-time tracking from our warehouse to your doorstep.",          imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-man-carrying-box_23-2148773399.jpg",          imageAlt: "fast delivery truck city background"},
       ]}
       title="Fast Delivery Across Sarajevo"
       description="Experience our reliable and fast delivery service, ensuring your fresh produce arrives quickly and perfectly. Enjoy same-day delivery for early orders!"
@@ -145,53 +110,17 @@ export default function LandingPage() {
       useInvertedBackground={false}
       products={[
         {
-          id: "prod-1",
-          name: "Organic Red Apples",
-          price: "5.99 BAM/kg",
-          variant: "Fresh Fruits",
-          imageSrc: "http://img.b2bpic.net/free-photo/juicy-fresh-apples-wooden-rustic-tray_114579-61904.jpg",
-          imageAlt: "fresh red apples wooden crate",
-        },
+          id: "prod-1",          name: "Organic Red Apples",          price: "5.99 BAM/kg",          variant: "Fresh Fruits",          imageSrc: "http://img.b2bpic.net/free-photo/juicy-fresh-apples-wooden-rustic-tray_114579-61904.jpg",          imageAlt: "fresh red apples wooden crate"},
         {
-          id: "prod-2",
-          name: "Heirloom Tomatoes",
-          price: "7.49 BAM/kg",
-          variant: "Seasonal Vegetables",
-          imageSrc: "http://img.b2bpic.net/free-photo/front-view-fresh-red-tomatoes-inside-plate-blue-table_140725-132841.jpg",
-          imageAlt: "ripe red tomatoes vine organic",
-        },
+          id: "prod-2",          name: "Heirloom Tomatoes",          price: "7.49 BAM/kg",          variant: "Seasonal Vegetables",          imageSrc: "http://img.b2bpic.net/free-photo/front-view-fresh-red-tomatoes-inside-plate-blue-table_140725-132841.jpg",          imageAlt: "ripe red tomatoes vine organic"},
         {
-          id: "prod-3",
-          name: "Fresh Carrots",
-          price: "3.29 BAM/bunch",
-          variant: "Root Vegetables",
-          imageSrc: "http://img.b2bpic.net/free-photo/clean-carrots-board_23-2147761582.jpg",
-          imageAlt: "bunch of fresh organic carrots soil",
-        },
+          id: "prod-3",          name: "Fresh Carrots",          price: "3.29 BAM/bunch",          variant: "Root Vegetables",          imageSrc: "http://img.b2bpic.net/free-photo/clean-carrots-board_23-2147761582.jpg",          imageAlt: "bunch of fresh organic carrots soil"},
         {
-          id: "prod-4",
-          name: "Broccoli Crowns",
-          price: "4.99 BAM/head",
-          variant: "Organic Vegetables",
-          imageSrc: "http://img.b2bpic.net/free-photo/front-view-raw-broccoli-cauliflower-black-rectangular-plate-green-white-checkered-napkin-dark-background_140725-139614.jpg",
-          imageAlt: "fresh green broccoli florets healthy",
-        },
+          id: "prod-4",          name: "Broccoli Crowns",          price: "4.99 BAM/head",          variant: "Organic Vegetables",          imageSrc: "http://img.b2bpic.net/free-photo/front-view-raw-broccoli-cauliflower-black-rectangular-plate-green-white-checkered-napkin-dark-background_140725-139614.jpg",          imageAlt: "fresh green broccoli florets healthy"},
         {
-          id: "prod-5",
-          name: "Ripe Bananas",
-          price: "2.79 BAM/kg",
-          variant: "Tropical Fruits",
-          imageSrc: "http://img.b2bpic.net/free-photo/set-fresh-bananas_23-2147931477.jpg",
-          imageAlt: "ripe yellow bananas bunch tropical",
-        },
+          id: "prod-5",          name: "Ripe Bananas",          price: "2.79 BAM/kg",          variant: "Tropical Fruits",          imageSrc: "http://img.b2bpic.net/free-photo/set-fresh-bananas_23-2147931477.jpg",          imageAlt: "ripe yellow bananas bunch tropical"},
         {
-          id: "prod-6",
-          name: "Crisp Cucumbers",
-          price: "2.49 BAM/piece",
-          variant: "Salad Vegetables",
-          imageSrc: "http://img.b2bpic.net/free-photo/fresh-cucumber-gathered-from-greenhouse-plants_114579-2734.jpg",
-          imageAlt: "fresh green cucumbers garden",
-        },
+          id: "prod-6",          name: "Crisp Cucumbers",          price: "2.49 BAM/piece",          variant: "Salad Vegetables",          imageSrc: "http://img.b2bpic.net/free-photo/fresh-cucumber-gathered-from-greenhouse-plants_114579-2734.jpg",          imageAlt: "fresh green cucumbers garden"},
       ]}
       title="Our Fresh Products"
       description="Explore our wide range of categories, from daily essentials to organic specialties. Find your favorites with easy search, filter, and sort options."
@@ -205,61 +134,31 @@ export default function LandingPage() {
       useInvertedBackground={true}
       plans={[
         {
-          id: "pack-small",
-          badge: "Popular",
-          badgeIcon: Sparkles,
-          price: "29.99 BAM",
-          subtitle: "Small Family Pack",
-          buttons: [
+          id: "pack-small",          badge: "Popular",          badgeIcon: Sparkles,
+          price: "29.99 BAM",          subtitle: "Small Family Pack",          buttons: [
             {
-              text: "Order Now",
-              href: "#contact",
-            },
+              text: "Order Now",              href: "#contact"},
           ],
           features: [
-            "Fresh fruits & vegetables (2-3 people)",
-            "Seasonal selection",
-            "Weekly changing contents",
-            "Convenient home delivery",
-          ],
+            "Fresh fruits & vegetables (2-3 people)",            "Seasonal selection",            "Weekly changing contents",            "Convenient home delivery"],
         },
         {
-          id: "pack-medium",
-          badge: "Best Value",
-          badgeIcon: Award,
-          price: "49.99 BAM",
-          subtitle: "Medium Family Pack",
-          buttons: [
+          id: "pack-medium",          badge: "Best Value",          badgeIcon: Award,
+          price: "49.99 BAM",          subtitle: "Medium Family Pack",          buttons: [
             {
-              text: "Order Now",
-              href: "#contact",
-            },
+              text: "Order Now",              href: "#contact"},
           ],
           features: [
-            "Generous fruits & vegetables (4-5 people)",
-            "Premium organic options",
-            "Weekly changing contents",
-            "Express home delivery",
-          ],
+            "Generous fruits & vegetables (4-5 people)",            "Premium organic options",            "Weekly changing contents",            "Express home delivery"],
         },
         {
-          id: "pack-large",
-          badge: "For Large Families",
-          badgeIcon: Users,
-          price: "69.99 BAM",
-          subtitle: "Large Family Pack",
-          buttons: [
+          id: "pack-large",          badge: "For Large Families",          badgeIcon: Users,
+          price: "69.99 BAM",          subtitle: "Large Family Pack",          buttons: [
             {
-              text: "Order Now",
-              href: "#contact",
-            },
+              text: "Order Now",              href: "#contact"},
           ],
           features: [
-            "Abundant fruits & vegetables (large families)",
-            "Includes gourmet selections",
-            "Customizable options available",
-            "Priority home delivery",
-          ],
+            "Abundant fruits & vegetables (large families)",            "Includes gourmet selections",            "Customizable options available",            "Priority home delivery"],
         },
       ]}
       title="Weekly Family Value Packs"
@@ -273,52 +172,23 @@ export default function LandingPage() {
       useInvertedBackground={false}
       testimonials={[
         {
-          id: "t1",
-          name: "Amina S.",
-          handle: "@amina_fresh",
-          testimonial: "Zelenara has completely changed my grocery shopping! The produce is always incredibly fresh, and the delivery is so fast. Highly recommend!",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/young-pretty-woman-outdoors_624325-737.jpg",
-          imageAlt: "happy young woman smiling outdoor",
-        },
+          id: "t1",          name: "Amina S.",          handle: "@amina_fresh",          testimonial: "Zelenara has completely changed my grocery shopping! The produce is always incredibly fresh, and the delivery is so fast. Highly recommend!",          rating: 5,
+          imageSrc: "http://img.b2bpic.net/free-photo/young-pretty-woman-outdoors_624325-737.jpg",          imageAlt: "happy young woman smiling outdoor"},
         {
-          id: "t2",
-          name: "Haris K.",
-          handle: "@haris_healthy",
-          testimonial: "Fantastic quality, amazing prices, and the convenience is unbeatable. My family loves the weekly packages, always a great variety!",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/young-woman-giving-thumbs-up-gray-wall_114579-63637.jpg",
-          imageAlt: "man looking positive outdoor",
-        },
+          id: "t2",          name: "Haris K.",          handle: "@haris_healthy",          testimonial: "Fantastic quality, amazing prices, and the convenience is unbeatable. My family loves the weekly packages, always a great variety!",          rating: 5,
+          imageSrc: "http://img.b2bpic.net/free-photo/young-woman-giving-thumbs-up-gray-wall_114579-63637.jpg",          imageAlt: "man looking positive outdoor"},
         {
-          id: "t3",
-          name: "Lejla M.",
-          handle: "@lejla_kitchen",
-          testimonial: "I appreciate the local sourcing and the care put into each delivery. It truly feels like farm-to-table right here in Sarajevo.",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/picture-pensive-attractive-woman-holding-wooden-plate-broccoli_114579-88451.jpg",
-          imageAlt: "smiling woman with groceries home",
-        },
+          id: "t3",          name: "Lejla M.",          handle: "@lejla_kitchen",          testimonial: "I appreciate the local sourcing and the care put into each delivery. It truly feels like farm-to-table right here in Sarajevo.",          rating: 5,
+          imageSrc: "http://img.b2bpic.net/free-photo/picture-pensive-attractive-woman-holding-wooden-plate-broccoli_114579-88451.jpg",          imageAlt: "smiling woman with groceries home"},
         {
-          id: "t4",
-          name: "Adnan B.",
-          handle: "@adnan_eats",
-          testimonial: "Always fresh, always on time! Zelenara makes eating healthy so much easier for my busy schedule.",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/portrait-young-man-holding-red-turnip-orange-carrot_23-2148076091.jpg",
-          imageAlt: "man unpacking grocery bag kitchen",
-        },
+          id: "t4",          name: "Adnan B.",          handle: "@adnan_eats",          testimonial: "Always fresh, always on time! Zelenara makes eating healthy so much easier for my busy schedule.",          rating: 5,
+          imageSrc: "http://img.b2bpic.net/free-photo/portrait-young-man-holding-red-turnip-orange-carrot_23-2148076091.jpg",          imageAlt: "man unpacking grocery bag kitchen"},
         {
-          id: "t5",
-          name: "Sara D.",
-          handle: "@sara_garden",
-          testimonial: "Their organic selection is superb. It’s comforting to know I'm getting high-quality, chemical-free produce for my family.",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/senior-woman-eating-banana-outdoors-park-after-yoga_23-2148685724.jpg",
-          imageAlt: "elderly woman happy smiling outdoor",
-        },
+          id: "t5",          name: "Sara D.",          handle: "@sara_garden",          testimonial: "Their organic selection is superb. It’s comforting to know I'm getting high-quality, chemical-free produce for my family.",          rating: 5,
+          imageSrc: "http://img.b2bpic.net/free-photo/senior-woman-eating-banana-outdoors-park-after-yoga_23-2148685724.jpg",          imageAlt: "elderly woman happy smiling outdoor"},
       ]}
       showRating={true}
+      animationType="slide-up"
       title="What Our Customers Say"
       description="Hear from our happy customers about the quality and convenience of Zelenara's fresh produce delivery."
     />
@@ -329,15 +199,7 @@ export default function LandingPage() {
       textboxLayout="default"
       useInvertedBackground={true}
       names={[
-        "Visa",
-        "Mastercard",
-        "Apple Pay",
-        "Google Pay",
-        "PayPal",
-        "Cash on Delivery",
-        "Stripe Secure",
-        "SSL Encrypted",
-      ]}
+        "Visa",        "Mastercard",        "Apple Pay",        "Google Pay",        "PayPal",        "Cash on Delivery",        "Stripe Secure",        "SSL Encrypted"]}
       title="Secure & Flexible Payment Options"
       description="We offer a variety of secure payment methods for a smooth and convenient checkout experience."
       showCard={false}
@@ -348,14 +210,11 @@ export default function LandingPage() {
       <ContactText
       useInvertedBackground={false}
       background={{
-        variant: "radial-gradient",
-      }}
+        variant: "radial-gradient"}}
       text="Have questions or need assistance? Reach out to us directly or fill out our contact form. Phone: 📞 060 342 2089"
       buttons={[
         {
-          text: "Send Message",
-          href: "#",
-        },
+          text: "Send Message",          href: "#"},
       ]}
     />
   </div>
@@ -365,70 +224,41 @@ export default function LandingPage() {
       logoText="Zelenara"
       columns={[
         {
-          title: "Products",
-          items: [
+          title: "Products",          items: [
             {
-              label: "Fruits",
-              href: "#products",
-            },
+              label: "Fruits",              href: "#products"},
             {
-              label: "Vegetables",
-              href: "#products",
-            },
+              label: "Vegetables",              href: "#products"},
             {
-              label: "Organic Products",
-              href: "#products",
-            },
+              label: "Organic Products",              href: "#products"},
             {
-              label: "Seasonal",
-              href: "#products",
-            },
+              label: "Seasonal",              href: "#products"},
             {
-              label: "Special Offers",
-              href: "#products",
-            },
+              label: "Special Offers",              href: "#products"},
           ],
         },
         {
-          title: "Company",
-          items: [
+          title: "Company",          items: [
             {
-              label: "About Us",
-              href: "#about",
-            },
+              label: "About Us",              href: "#about"},
             {
-              label: "Why Choose Zelenara",
-              href: "#about",
-            },
+              label: "Why Choose Zelenara",              href: "#about"},
             {
-              label: "Customer Reviews",
-              href: "#testimonials",
-            },
+              label: "Customer Reviews",              href: "#testimonials"},
             {
-              label: "Delivery Information",
-              href: "#delivery-info",
-            },
+              label: "Delivery Information",              href: "#delivery-info"},
           ],
         },
         {
-          title: "Support",
-          items: [
+          title: "Support",          items: [
             {
-              label: "Contact Us",
-              href: "#contact",
-            },
+              label: "Contact Us",              href: "#contact"},
             {
-              label: "FAQ",
-              href: "#",
-            },
+              label: "FAQ",              href: "#"},
             {
-              label: "Privacy Policy",
-              href: "#",
-            },
+              label: "Privacy Policy",              href: "#"},
             {
-              label: "Terms of Service",
-              href: "#",
-            },
+              label: "Terms of Service",              href: "#"},
           ],
         },
       ]}
