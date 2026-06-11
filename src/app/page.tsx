@@ -12,7 +12,7 @@ import ProductCardFour from '@/components/sections/product/ProductCardFour';
 import SocialProofOne from '@/components/sections/socialProof/SocialProofOne';
 import TestimonialAboutCard from '@/components/sections/about/TestimonialAboutCard';
 import TestimonialCardThirteen from '@/components/sections/testimonial/TestimonialCardThirteen';
-import { Award, Leaf, Sparkles, Users } from "lucide-react";
+import { Award, Leaf, Sparkles, Users, ShieldCheck } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -203,6 +203,8 @@ export default function LandingPage() {
       title="Sigurne i fleksibilne opcije plaćanja"
       description="Nudimo razne sigurne metode plaćanja za glatko i praktično iskustvo kupovine."
       showCard={false}
+      tag="Osigurano plaćanje"
+      tagIcon={ShieldCheck}
     />
   </div>
 
