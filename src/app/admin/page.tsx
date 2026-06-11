@@ -144,7 +144,7 @@ export default function AdminPanelPage() {
                 <Input value="" onChange={() => {}} placeholder="Order ID" />
                 <Input value="" onChange={() => {}} placeholder="Status (e.g., Pending, Shipped)" />
                 <ButtonHoverMagnetic text="Update Order Status" className="w-full" />
-              }
+              </div>
               <div className="flex flex-col gap-4 p-6 bg-white dark:bg-gray-800 rounded-lg shadow-md">
                 <h3 className="text-xl font-semibold flex items-center gap-2"><Users size={20} /> Customer Management</h3>
                 <Input value="" onChange={() => {}} placeholder="Customer ID or Email" />
