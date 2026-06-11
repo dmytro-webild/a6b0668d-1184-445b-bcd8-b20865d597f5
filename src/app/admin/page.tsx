@@ -63,7 +63,7 @@ export default function AdminPanelPage() {
         <div id="admin-hero" data-section="admin-hero" className="py-24">
           <TextAnimation
             type="entrance-slide"
-            title="Admin Panel"
+            children="Admin Panel"
             className="text-center text-4xl lg:text-5xl font-bold"
           />
           <p className="text-center text-lg mt-4 max-w-2xl mx-auto text-gray-600 dark:text-gray-400">
@@ -75,6 +75,7 @@ export default function AdminPanelPage() {
           <CardStack
             animationType="slide-up"
             gridVariant="uniform-all-items-equal"
+            textboxLayout="default"
             title="Product Management"
             description="Add, edit, or delete products and manage inventory."
           >
@@ -106,6 +107,7 @@ export default function AdminPanelPage() {
           <CardStack
             animationType="slide-up"
             gridVariant="uniform-all-items-equal"
+            textboxLayout="default"
             title="Promotions & Weekly Packs"
             description="Create new promotions and manage your weekly family packs."
           >
@@ -132,6 +134,7 @@ export default function AdminPanelPage() {
           <CardStack
             animationType="slide-up"
             gridVariant="uniform-all-items-equal"
+            textboxLayout="default"
             title="Order & Customer Management"
             description="View and manage orders, and update customer information."
           >
@@ -141,7 +144,7 @@ export default function AdminPanelPage() {
                 <Input value="" onChange={() => {}} placeholder="Order ID" />
                 <Input value="" onChange={() => {}} placeholder="Status (e.g., Pending, Shipped)" />
                 <ButtonHoverMagnetic text="Update Order Status" className="w-full" />
-              </div>
+              }
               <div className="flex flex-col gap-4 p-6 bg-white dark:bg-gray-800 rounded-lg shadow-md">
                 <h3 className="text-xl font-semibold flex items-center gap-2"><Users size={20} /> Customer Management</h3>
                 <Input value="" onChange={() => {}} placeholder="Customer ID or Email" />
@@ -156,6 +159,7 @@ export default function AdminPanelPage() {
           <CardStack
             animationType="slide-up"
             gridVariant="uniform-all-items-equal"
+            textboxLayout="default"
             title="Sales Statistics"
             description="Review key performance indicators and sales trends."
           >
